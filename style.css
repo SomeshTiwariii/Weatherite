@@ -144,3 +144,14 @@
     font-size: 1.6rem;
     font-family: "myFirstFont";
 }
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .flex {
+        margin-top: 10rem;
+    }
+
+    #forecast-container {
+        left: 5%;
+    }
+}
